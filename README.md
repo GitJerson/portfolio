@@ -2,7 +2,7 @@
 My web portfolio features myself, my tech stack, and my overall skills. I am a gamer myself, so after pondering, I followed a game-inspired aethestic for my portfolio theme.
 
 ## 🛠️ Built With
-UI Framework: React
+UI Framework: React<br>
 Styling: Tailwind CSS & PURE CSS(for complex gradients, pseudo-elements, and cursor animations)
 
 ## ✨ Current Features
