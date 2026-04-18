@@ -4,7 +4,7 @@ My web portfolio features myself, my tech stack, and my overall skills. I am a x
 ## 🛠️ Built With
 - UI Framework: React
 - Styling: Tailwind CSS & PURE CSS(for complex gradients, pseudo-elements, and cursor animations)
-
+- Javascript
 ## ✨ Current Features
 - Custom xianxia cursor: gold core cursor with aura ring, hover glow expansion, click burst animation, and trailing spark particles
 - Hero selection screen: animated glowing programmer card with rune rings, rising hover effect, and misty radial backdrop
