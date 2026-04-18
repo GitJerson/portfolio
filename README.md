@@ -1,13 +1,14 @@
 ## 🎮 Portfolio
-My web portfolio features myself, my tech stack, and my overall skills. I am a gamer myself, so after pondering, I followed a game-inspired aethestic for my portfolio theme.
+My web portfolio features myself, my tech stack, and my overall skills. I am a xianxia reader myself, so after pondering, I followed a xianxia-inspired aethestic for my portfolio theme.
 
 ## 🛠️ Built With
 - UI Framework: React
 - Styling: Tailwind CSS & PURE CSS(for complex gradients, pseudo-elements, and cursor animations)
 
 ## ✨ Current Features
-- Custom game cursor: Crosshair-style cursor with glowing teal ring, hover scale effect, and click shrink animation
-- Animated background: Layered radial and linear gradients for a deep dark sci-fi look
+Custom xianxia cursor: gold core cursor with aura ring, hover glow expansion, click burst animation, and trailing spark particles
+Hero selection screen: animated glowing programmer card with rune rings, rising hover effect, and misty radial backdrop
+Global theme styling: Tailwind CSS plus custom CSS variables, gradients, and text effects
 
 
 ## 🚀 Getting Started
@@ -21,10 +22,16 @@ npm run dev
 ## 📁 Project Structure
 ```bash
 src/
-├── App.jsx          # Main app component
-├── App.css          # Hero background + grid overlay styles
-├── cursor.js        # Custom cursor logic (mousemove, hover, click)
-└── cursor.css       # Game cursor styles and animations
+├── main.jsx         # App entrypoint rendering Cursor and Landing
+├── index.css        # Global styles, Tailwind import, fonts, and theme variables
+├── cursor.jsx       # Cursor component markup and wrapper
+├── cursor.js        # Custom cursor logic for mouse movement, hover, click, and trail
+├── cursor.css       # Cursor visuals, glow effects, burst animation, and trail particles
+├── landing.jsx      # Hero landing UI and selection card component
+├── landing.css      # Hero screen styling, animated card, and glow gradients
+├── particle.jsx     # Canvas wrapper for particle background animation
+├── particles.js     # Particle system logic for canvas animation
+└── assets/          # Static assets used by the site
 ```
 
 ## 🔮 Planned Features

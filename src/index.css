@@ -1,1 +1,61 @@
+@import "https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cinzel+Decorative:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=IM+Fell+English:ital,wght@0,400;0,700;1,400;1,700&display=swap";
 @import "tailwindcss";
+
+/* ═══════════════════════════════════════════════
+   CSS CUSTOM PROPERTIES — THEME VARIABLES
+═══════════════════════════════════════════════ */
+:root {
+  --color-void: #05070f;
+  --color-navy: #0a0d1a;
+  --color-deep: #0d1128;
+  --color-purple: #6b21a8;
+  --color-purple-light: #9333ea;
+  --color-gold: #d4af37;
+  --color-gold-dim: #a07c1e;
+  --color-gold-bright: #f0c945;
+  --color-jade: #2d6a4f;
+  --color-jade-light: #40916c;
+  --color-moon: #f0e6ff;
+  --color-ember: #c0392b;
+  --color-silver: #c9d1e8;
+  --color-mist: rgba(180,160,255,0.07);
+
+  --font-display: 'Cinzel Decorative', serif;
+  --font-title: 'Cinzel', serif;
+  --font-body: 'Crimson Text', serif;
+  --font-accent: 'IM Fell English', serif;
+
+  --glow-gold: 0 0 18px rgba(212,175,55,0.55), 0 0 40px rgba(212,175,55,0.2);
+  --glow-purple: 0 0 18px rgba(147,51,234,0.5), 0 0 40px rgba(107,33,168,0.25);
+  --glow-jade: 0 0 18px rgba(64,145,108,0.5), 0 0 40px rgba(45,106,79,0.2);
+
+  --transition: 0.45s ease-out;
+  --transition-fast: 0.25s ease-out;
+}
+
+
+/* ═══════════════════════════════════════════════
+   RESET & BASE
+═══════════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--color-void);
+  color: var(--color-moon);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.7;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+
+
+/* ═══════════════════════════════════════════════
+   SCROLLBAR
+═══════════════════════════════════════════════ */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--color-void); }
+::-webkit-scrollbar-thumb { background: var(--color-gold-dim); border-radius: 10px; }
