@@ -6,9 +6,9 @@ My web portfolio features myself, my tech stack, and my overall skills. I am a x
 - Styling: Tailwind CSS & PURE CSS(for complex gradients, pseudo-elements, and cursor animations)
 
 ## ✨ Current Features
-Custom xianxia cursor: gold core cursor with aura ring, hover glow expansion, click burst animation, and trailing spark particles
-Hero selection screen: animated glowing programmer card with rune rings, rising hover effect, and misty radial backdrop
-Global theme styling: Tailwind CSS plus custom CSS variables, gradients, and text effects
+- Custom xianxia cursor: gold core cursor with aura ring, hover glow expansion, click burst animation, and trailing spark particles
+- Hero selection screen: animated glowing programmer card with rune rings, rising hover effect, and misty radial backdrop
+- Global theme styling: Tailwind CSS plus custom CSS variables, gradients, and text effects
 
 
 ## 🚀 Getting Started
