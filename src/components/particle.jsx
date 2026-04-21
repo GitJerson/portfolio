@@ -1,4 +1,4 @@
-import './particles.js'
+import '../scripts/particles.js'
 
 function Particle(){
     return (
