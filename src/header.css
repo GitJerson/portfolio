@@ -1,0 +1,28 @@
+/* ─────── NAV ─────── */
+.realm-nav {
+  background: linear-gradient(180deg, rgba(5,7,15,0.95) 0%, transparent 100%);
+  border-bottom: 1px solid rgba(212,175,55,0.06);
+}
+
+.nav-logo {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  color: var(--color-gold);
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(212,175,55,0.4);
+}
+
+.nav-links a {
+  font-family: var(--font-title);
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(240,230,255,0.5);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.nav-links a:hover { color: var(--color-gold); }
+
+@media (max-width: 600px) {
+  .nav-links { display: none; }
+}

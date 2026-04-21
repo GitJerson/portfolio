@@ -1,9 +1,7 @@
-import './cursor.css'
-import './cursor.js'
+import '../cursor.css'
+import '../scripts/cursor.js'
 function Cursor() {
   return (
-    <div className="m-0 min-h-screen overflow-x-hidden hero-bg before:content-[''] 
-    before:fixed before:inset-0 before:pointer-events-none before:z-0">
       <div id="cursor-root" className="fixed pointer-events-none z-99999 top-0 left-0 will-change-transform">
         <div id="cursor-qi" className="absolute w-11 h-11 border border-dashed border-[rgba(147,51,234,0.18)] rounded-full transform -translate-x-1/2 -translate-y-1/2 transition-transform transition-width transition-height transition-opacity"></div>
         <div id="cursor-aura" className='absolute w-11 h-11 border border-solid border-[rgba(212,175,55,0.25)] rounded-full transform -translate-x-1/2 -translate-y-1/2 transition-transform transition-width transition-height transition-opacity'></div>
@@ -25,7 +23,6 @@ function Cursor() {
         <div id="cursor-dot" className='absolute w-1 h-1 bg-white rounded-full transform -translate-x-1/2 -translate-y-1/2'></div>
         <div id="cursor-burst" className='absolute w-12 h-12 border border-[rgba(212,175,55,0.7)] rounded-full transform -translate-x-1/2 -translate-y-1/2 opacity-0 pointer-events-none'></div>
       </div>
-    </div>
   );
 }
 

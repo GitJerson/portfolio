@@ -2,13 +2,6 @@
    HERO SELECTION SCREEN
 ═══════════════════════════════════════════════ */
 #hero-screen {
-  position: fixed;
-  inset: 0;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background: radial-gradient(ellipse 80% 60% at 50% 40%, #1a0a35 0%, #0a0d1a 55%, #05070f 100%);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
@@ -45,24 +38,14 @@
 
 /* Hero card wrapper */
 .hero-card-wrap {
-  position: relative;
   animation: fadeSlideUp 1s ease-out 0.5s both;
 }
 
 /* The card itself */
 .hero-card {
-  position: relative;
   width: clamp(240px, 38vw, 360px);
-  aspect-ratio: 3/4;
-  border-radius: 4px;
   background: linear-gradient(160deg, #12102a 0%, #0d1128 60%, #0a0f1f 100%);
   border: 1px solid rgba(212,175,55,0.3);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  overflow: hidden;
-  cursor: pointer;
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
@@ -104,27 +87,9 @@
   z-index: 0;
 }
 
-/* Avatar illustration area */
-.card-avatar {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 30%;
-}
-
 .avatar-sigil {
-  width: 55%;
-  aspect-ratio: 1;
-  border-radius: 50%;
   background: radial-gradient(circle at 35% 35%, #1e1545, #0a0d1a);
   border: 1px solid rgba(212,175,55,0.25);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
   box-shadow: var(--glow-purple);
   animation: avatarPulse 4s ease-in-out infinite;
 }
@@ -172,12 +137,8 @@
 
 /* Card name plate */
 .card-plate {
-  position: relative;
-  z-index: 2;
-  width: 100%;
   padding: 1rem 1.2rem 1.2rem;
   background: linear-gradient(0deg, rgba(5,7,15,0.97) 60%, transparent 100%);
-  text-align: center;
 }
 
 .card-name {
@@ -224,16 +185,6 @@
 .corner.bl { bottom: 8px; left: 8px; border-width: 0 0 2px 2px; }
 .corner.br { bottom: 8px; right: 8px; border-width: 0 2px 2px 0; }
 
-/* Rarity stars */
-.card-stars {
-  position: absolute;
-  top: 14px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  display: flex;
-  gap: 4px;
-}
 .star {
   width: 8px; height: 8px;
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
@@ -250,34 +201,6 @@
   0%, 100% { opacity: 1; }
   50% { opacity: 0.5; }
 }
-
-/* SELECT BUTTON */
-.select-btn {
-  margin-top: 2.5rem;
-  position: relative;
-  z-index: 2;
-  font-family: var(--font-title);
-  font-size: 0.85rem;
-  letter-spacing: 6px;
-  text-transform: uppercase;
-  color: var(--color-void);
-  background: linear-gradient(135deg, var(--color-gold-bright), var(--color-gold), var(--color-gold-dim));
-  border: none;
-  padding: 0.85rem 3rem;
-  cursor: pointer;
-  clip-path: polygon(8px 0%, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
-  transition: all var(--transition-fast);
-  animation: fadeSlideUp 1s ease-out 1s both;
-  font-weight: 700;
-}
-
-.select-btn:hover {
-  background: linear-gradient(135deg, #fff5cc, var(--color-gold-bright), var(--color-gold));
-  box-shadow: var(--glow-gold);
-  transform: translateY(-2px) scale(1.04);
-}
-
-.select-btn:active { transform: scale(0.97); }
 
 .hs-footer {
   position: absolute;
