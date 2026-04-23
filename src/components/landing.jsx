@@ -17,7 +17,7 @@ function Landing({setShow}) {
                     <div className="corner tr"></div>
                     <div className="corner bl"></div>
                     <div className="corner br"></div>
-                    <div className="absolute inset-0 z-1 flex items-center justify-center p-[10%]">
+                    <div className="absolute inset-0 z-1 flex items-center justify-center p-[5%] mb-[25%]">
                         <div className="avatar-sigil w-[55%] aspect-square rounded-[50%] 
                         flex items-center justify-center relative">
                             <div className="rune-ring"></div>
