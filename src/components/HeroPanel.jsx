@@ -1,5 +1,5 @@
 import Profile from '../assets/portfolio-profile.png';
-import Resume from '../assets/Jerson_Vargas_Resume.pdf';
+import Resume from '../assets/001_JersonVargas_JuniorDeveloper_Resume.pdf';
 
 function HeroPanel() {
     return (
@@ -37,12 +37,12 @@ function HeroPanel() {
                 <h2 className="skills-heading">Mastery</h2>
                 <div className="skill-list">
                     {[
-                        { name: 'C#', pct: 90, level: 'Advance' },
-                        { name: '.NET', pct: 80, level: 'Advance' },
-                        { name: 'MSSQL', pct: 80, level: 'Advance' },
-                        { name: 'Github', pct: 70, level: 'Medium' },
-                        { name: 'Tailwind', pct: 60, level: 'Medium' },
-                        { name: 'React', pct: 50, level: 'Entry' }
+                        { name: 'C#', pct: 80, level: 'Advance' },
+                        { name: '.NET', pct: 70, level: 'Advance' },
+                        { name: 'MSSQL', pct: 70, level: 'Advance' },
+                        { name: 'Github', pct: 50, level: 'Medium' },
+                        { name: 'Tailwind', pct: 50, level: 'Medium' },
+                        { name: 'React', pct: 40, level: 'Entry' }
                     ].map(skill => (
                         <div className="skill-item" key={skill.name}>
                             <div className="skill-header">
