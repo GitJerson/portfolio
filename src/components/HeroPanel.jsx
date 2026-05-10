@@ -1,5 +1,5 @@
 import Profile from '../assets/portfolio-profile.png';
-import Resume from '../assets/001_JersonVargas_JuniorDeveloper_Resume.pdf';
+import Resume from '../assets/001_JersonVargas_JuniorSoftwareDeveloper_Resume.pdf';
 
 function HeroPanel() {
     return (
