@@ -1,5 +1,5 @@
 import Profile from '../assets/portfolio-profile.png';
-import Resume from '../assets/001_JersonVargas_JuniorSoftwareDeveloper_Resume.pdf';
+import Resume from '../assets/Jerson_Vargas_Resume.pdf';
 
 function HeroPanel() {
     return (
@@ -25,7 +25,7 @@ function HeroPanel() {
                         </div>
                         <div className="stat">
                             <span className="stat-label">Projects</span>
-                            <span className="stat-value">2+</span>
+                            <span className="stat-value">3</span>
                         </div>
                     </div>
                     <a href={Resume} download="Jerson_Vargas_Resume.pdf" className="download-btn">

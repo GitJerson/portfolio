@@ -2,6 +2,13 @@ import GithubIcon from './GithubIcon';
 
 const PROJECTS = [
     {
+        title: 'TaskFlow API',
+        description: 'A task management REST API built with ASP.NET Core Web API (.NET 9). TaskFlow lets teams organize work through projects, tasks, and assignments. Users can create projects, break them into tasks, assign teammates, set deadlines, and track progress through a straightforward REST API.',
+        technologies: ['C#', '.NET 9', 'PostgreSQL', 'JWT', 'Versioning', 'Caching', 'Health Checks', 'Logging', 'Api Key Authentication', 'OAuth 2.0'],
+        status: 'Ongoing',
+        github: 'https://github.com/GitJerson/TaskFlow',
+    },
+    {
         title: 'PJR Portal',
         description: 'A web application for managing student attendance. Teachers can manage records through a portal, students can view their attendance. Built with ASP.NET Web API backend and React frontend.',
         technologies: ['ASP.NET Web API', 'React', 'Tailwind CSS', 'PostgreSQL', 'Capacitor'],
@@ -14,13 +21,6 @@ const PROJECTS = [
         technologies: ['ASP.NET MVC', 'Bootstrap', 'MSSQL'],
         status: 'Completed',
         github: 'https://github.com/GitJerson/CapstoneProject',
-    },
-    {
-        title: 'TaskFlow API',
-        description: 'A task management REST API built with ASP.NET Core Web API (.NET 9). TaskFlow lets teams organize work through projects, tasks, and assignments. Users can create projects, break them into tasks, assign teammates, set deadlines, and track progress through a straightforward REST API.',
-        technologies: ['C#', '.NET 9', 'PostgreSQL', 'JWT', 'others implementing soon'],
-        status: 'Ongoing',
-        github: 'https://github.com/GitJerson/TaskFlow',
     },
 ];
 
