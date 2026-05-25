@@ -12,7 +12,7 @@ function SkillsSection() {
 
     return (
         <section className="skills-section">
-            <h2>Skills</h2>
+            <h2>Top Skills</h2>
             <div className="skills-grid">
                 {skills.map(skill => (
                     <div className="skill-item" key={skill.name}>
